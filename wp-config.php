@@ -40,6 +40,7 @@ define('DB_COLLATE', '');
 
 /**#@+
  * Chaves únicas de autenticação e salts.
+ * Blá,blá,blá
  *
  * Altere cada chave para um frase única!
  * Você pode gerá-las
