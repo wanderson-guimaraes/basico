@@ -1,7 +1,7 @@
 <?php
 /**
  * As configurações básicas do WordPress
- *
+ *blabla
  * O script de criação wp-config.php usa esse arquivo durante a instalação.
  * Você não precisa usar o site, você pode copiar este arquivo
  * para "wp-config.php" e preencher os valores.
