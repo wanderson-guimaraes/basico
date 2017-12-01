@@ -1,0 +1,46 @@
+.adgallerycmb_metabox .field-item {
+	position: relative;
+}
+
+.adgallerycmb_metabox_description { 
+	color: #AAA; 
+	font-style: italic; 
+	margin: 0 0 16px !important;
+}
+
+.adgallerycmb_metabox input[type=text], 
+.adgallerycmb_metabox textarea, 
+.adgallerycmb_metabox select { 
+	width: 100%;
+	margin: 0;
+}
+
+.adgallerycmb_metabox input.adgallerycmb_text_small { 
+	width: 100px; 
+}
+
+.adgallerycmb_metabox input.adgallerycmb_text_medium {
+	width: 230px; 
+	margin-right: 15px;
+}
+
+.adgallerycmb_metabox input[type="radio"] { 
+	margin: 0 5px 0 0; 
+	padding: 0;
+}
+
+.adgallerycmb_metabox input[type="checkbox"] { 
+	margin: 0 5px 0 0; 
+	padding: 0;
+}
+
+.adgallerycmb_metabox .field-title { 
+	margin-top: -4px; 
+	margin-bottom: 16px; 
+	margin-top: 0; 
+	font-weight: bold; 
+}
+
+.adgallerycmb_metabox .field-title label {
+	vertical-align: baseline;
+}

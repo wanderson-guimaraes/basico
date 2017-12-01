@@ -1,0 +1,537 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AD Gallery\n"
+"POT-Creation-Date: 2014-03-27 15:21+0100\n"
+"PO-Revision-Date: 2014-03-27 15:21+0100\n"
+"Last-Translator: \n"
+"Language-Team: AD-Theme <support@ad-theme.com>\n"
+"Language: eng\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../inc/functions.php:12 ../inc/functions.php:29
+msgid "Shortcode"
+msgstr ""
+
+#: ../inc/functions.php:28
+msgid "Gallery Name"
+msgstr ""
+
+#: ../inc/functions.php:30
+msgid "Date"
+msgstr ""
+
+#: ../inc/menus.php:15 ../inc/metaboxes.php:17 ../inc/posttype.php:16
+#: ../inc/posttype.php:28
+msgid "AD Gallery"
+msgstr ""
+
+#: ../inc/menus.php:15
+msgid "Settings"
+msgstr ""
+
+#: ../inc/metaboxes.php:123
+msgid "Shortcode (copy and paste this shortcode into post/page): "
+msgstr ""
+
+#: ../inc/metaboxes.php:133
+msgid "Gallery Type"
+msgstr ""
+
+#: ../inc/metaboxes.php:148
+msgid "Img Source"
+msgstr ""
+
+#: ../inc/metaboxes.php:179
+msgid "Select Category (Multiple category is allowed)"
+msgstr ""
+
+#: ../inc/metaboxes.php:187 ../inc/metaboxes.php:226 ../inc/metaboxes.php:271
+#: ../inc/metaboxes.php:308 ../inc/metaboxes.php:345 ../inc/metaboxes.php:382
+msgid "All"
+msgstr ""
+
+#: ../inc/metaboxes.php:218
+msgid "Select Album"
+msgstr ""
+
+#: ../inc/metaboxes.php:263
+msgid "Select Woocommerce Category (Multiple category is allowed)"
+msgstr ""
+
+#: ../inc/metaboxes.php:300
+msgid "Select Wp e-commerce Category (Multiple category is allowed)"
+msgstr ""
+
+#: ../inc/metaboxes.php:337
+msgid "Select Jigoshop Category (Multiple category is allowed)"
+msgstr ""
+
+#: ../inc/metaboxes.php:374
+msgid "Select AD Gallery Post Category (Multiple category is allowed)"
+msgstr ""
+
+#: ../inc/metaboxes.php:408
+msgid "Featured Image/Content Image"
+msgstr ""
+
+#: ../inc/metaboxes.php:422
+msgid "Select Custom Size"
+msgstr ""
+
+#: ../inc/metaboxes.php:444 ../inc/shortcodes-functions.php:1732
+msgid "Default"
+msgstr ""
+
+#: ../inc/metaboxes.php:446
+msgid "Custom Size 1: "
+msgstr ""
+
+#: ../inc/metaboxes.php:449
+msgid "Custom Size 2: "
+msgstr ""
+
+#: ../inc/metaboxes.php:452
+msgid "Custom Size 3: "
+msgstr ""
+
+#: ../inc/metaboxes.php:455
+msgid "Custom Size 4: "
+msgstr ""
+
+#: ../inc/metaboxes.php:457 ../inc/pages.php:137
+msgid "Custom Size Grid: "
+msgstr ""
+
+#: ../inc/metaboxes.php:470
+msgid "Number Post/Image Load"
+msgstr ""
+
+#: ../inc/metaboxes.php:480
+msgid "Wrapper Width (Insert only a number, ex 1000. Leave empty for 100%)"
+msgstr ""
+
+#: ../inc/metaboxes.php:488
+msgid "Wrapper Align"
+msgstr ""
+
+#: ../inc/metaboxes.php:500
+msgid "Item Margin for ex: 5px (Inline margin allowed for ex: 2px 5px 2px 5px)"
+msgstr ""
+
+#: ../inc/metaboxes.php:508
+msgid "Image Over Effect"
+msgstr ""
+
+#: ../inc/metaboxes.php:528
+msgid "Angle Rotate ex: 360"
+msgstr ""
+
+#: ../inc/metaboxes.php:544
+msgid "Scale(x,y) ex: 1.2,1.2"
+msgstr ""
+
+#: ../inc/metaboxes.php:560
+msgid "Translate(x,y) ex: 10px,0"
+msgstr ""
+
+#: ../inc/metaboxes.php:571
+msgid "Border Radius ex: 5px (Inline margin allowed for ex: 2px 5px 2px 5px)"
+msgstr ""
+
+#: ../inc/metaboxes.php:580
+msgid "SGallery"
+msgstr ""
+
+#: ../inc/metaboxes.php:581
+msgid "Prettyphoto"
+msgstr ""
+
+#: ../inc/metaboxes.php:582
+msgid "Photobox"
+msgstr ""
+
+#: ../inc/metaboxes.php:583
+msgid "Photowall"
+msgstr ""
+
+#: ../inc/metaboxes.php:584
+msgid "Filter"
+msgstr ""
+
+#: ../inc/metaboxes.php:591
+msgid "Type SGallery"
+msgstr ""
+
+#: ../inc/metaboxes.php:603
+msgid "Style SGallery"
+msgstr ""
+
+#: ../inc/metaboxes.php:621
+msgid "Caption"
+msgstr ""
+
+#: ../inc/metaboxes.php:634
+msgid "Number Excerpt"
+msgstr ""
+
+#: ../inc/metaboxes.php:644
+msgid "Controls"
+msgstr ""
+
+#: ../inc/metaboxes.php:657
+msgid "Navigation Button Type"
+msgstr ""
+
+#: ../inc/metaboxes.php:674
+msgid "Full Screen Button"
+msgstr ""
+
+#: ../inc/metaboxes.php:686
+msgid "Active Custom Color"
+msgstr ""
+
+#: ../inc/metaboxes.php:697
+msgid "Custom Color:"
+msgstr ""
+
+#: ../inc/metaboxes.php:705 ../inc/metaboxes.php:754 ../inc/metaboxes.php:890
+#: ../inc/metaboxes.php:1139 ../inc/metaboxes.php:1248
+msgid "Opacity (Value between 0 and 1: ex 0.8)"
+msgstr ""
+
+#: ../inc/metaboxes.php:719
+msgid "Type prettyphoto"
+msgstr ""
+
+#: ../inc/metaboxes.php:731 ../inc/metaboxes.php:762 ../inc/metaboxes.php:1116
+#: ../inc/metaboxes.php:1147
+msgid "Style prettyPhoto"
+msgstr ""
+
+#: ../inc/metaboxes.php:746 ../inc/metaboxes.php:882 ../inc/metaboxes.php:1131
+msgid "Overlay Custom Color:"
+msgstr ""
+
+#: ../inc/metaboxes.php:776 ../inc/metaboxes.php:1202
+msgid "PrettyPhoto Theme"
+msgstr ""
+
+#: ../inc/metaboxes.php:791 ../inc/metaboxes.php:1217
+msgid "PrettyPhoto Animation Speed"
+msgstr ""
+
+#: ../inc/metaboxes.php:803 ../inc/metaboxes.php:1229
+msgid "Slideshow (enter number (ms) ex: 5000"
+msgstr ""
+
+#: ../inc/metaboxes.php:811 ../inc/metaboxes.php:1237
+msgid "Autoplay Slideshow"
+msgstr ""
+
+#: ../inc/metaboxes.php:822
+msgid "Opacity Lightbox (Value between 0 and 1: ex 0.8)"
+msgstr ""
+
+#: ../inc/metaboxes.php:830 ../inc/metaboxes.php:1256
+msgid "Show Title"
+msgstr ""
+
+#: ../inc/metaboxes.php:841 ../inc/metaboxes.php:1267
+msgid "Show Social"
+msgstr ""
+
+#: ../inc/metaboxes.php:855
+msgid "Type photobox"
+msgstr ""
+
+#: ../inc/metaboxes.php:867 ../inc/metaboxes.php:898
+msgid "Style photobox"
+msgstr ""
+
+#: ../inc/metaboxes.php:912 ../inc/metaboxes.php:1287
+msgid "Thumbs"
+msgstr ""
+
+#: ../inc/metaboxes.php:923 ../inc/metaboxes.php:1298
+msgid "Time (ms). Min 1000"
+msgstr ""
+
+#: ../inc/metaboxes.php:931 ../inc/metaboxes.php:1306
+msgid "Autoplay"
+msgstr ""
+
+#: ../inc/metaboxes.php:942 ../inc/metaboxes.php:1317
+msgid "Counter"
+msgstr ""
+
+#: ../inc/metaboxes.php:953 ../inc/metaboxes.php:979 ../inc/metaboxes.php:1328
+msgid "Title"
+msgstr ""
+
+#: ../inc/metaboxes.php:968
+msgid "Type photowall"
+msgstr ""
+
+#: ../inc/metaboxes.php:990
+msgid "Title Visible OnLoad"
+msgstr ""
+
+#: ../inc/metaboxes.php:1006
+msgid "Filter Effects Scale"
+msgstr ""
+
+#: ../inc/metaboxes.php:1015
+msgid "Filter Effects rotateX"
+msgstr ""
+
+#: ../inc/metaboxes.php:1024
+msgid "Filter Effects rotateY"
+msgstr ""
+
+#: ../inc/metaboxes.php:1033
+msgid "Filter Effects rotateZ"
+msgstr ""
+
+#: ../inc/metaboxes.php:1042
+msgid "Filter Effects blur"
+msgstr ""
+
+#: ../inc/metaboxes.php:1051
+msgid "Filter Effects grayscale"
+msgstr ""
+
+#: ../inc/metaboxes.php:1060
+msgid "Filter Easing"
+msgstr ""
+
+#: ../inc/metaboxes.php:1075
+msgid "Filter Layout Mode"
+msgstr ""
+
+#: ../inc/metaboxes.php:1088
+msgid "Transition Speed (in ms - insert only number ex: 3000)"
+msgstr ""
+
+#: ../inc/metaboxes.php:1094
+msgid "Filter Button Event"
+msgstr ""
+
+#: ../inc/metaboxes.php:1105
+msgid "Filter Show Sort"
+msgstr ""
+
+#: ../inc/metaboxes.php:1161
+msgid "Filter Action"
+msgstr ""
+
+#: ../inc/metaboxes.php:1179
+msgid "Filter Lightbox Type"
+msgstr ""
+
+#: ../inc/metaboxes.php:1350
+msgid "Excerpt Number"
+msgstr ""
+
+#: ../inc/pages.php:15
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: ../inc/pages.php:100
+msgid "Custom1 Size 1: "
+msgstr ""
+
+#: ../inc/pages.php:102 ../inc/pages.php:110 ../inc/pages.php:119
+#: ../inc/pages.php:128 ../inc/pages.php:139
+msgid "With: "
+msgstr ""
+
+#: ../inc/pages.php:103 ../inc/pages.php:111 ../inc/pages.php:120
+#: ../inc/pages.php:129
+msgid "Height: "
+msgstr ""
+
+#: ../inc/pages.php:104 ../inc/pages.php:112 ../inc/pages.php:121
+#: ../inc/pages.php:130
+msgid "Crop: "
+msgstr ""
+
+#: ../inc/pages.php:108
+msgid "Custom2 Size 2: "
+msgstr ""
+
+#: ../inc/pages.php:117
+msgid "Custom3 Size 3: "
+msgstr ""
+
+#: ../inc/pages.php:126
+msgid "Custom4 Size 4: "
+msgstr ""
+
+#: ../inc/pages.php:148
+msgid "Save Changes"
+msgstr ""
+
+#: ../inc/posttype.php:17
+msgid "AD Gallery Panel"
+msgstr ""
+
+#: ../inc/posttype.php:18 ../inc/posttype.php:19
+msgid "Add New Gallery"
+msgstr ""
+
+#: ../inc/posttype.php:20 ../inc/posttype.php:61
+msgid "Edit Gallery"
+msgstr ""
+
+#: ../inc/posttype.php:21 ../inc/posttype.php:62
+msgid "New Gallery"
+msgstr ""
+
+#: ../inc/posttype.php:22
+msgid "All Gallery"
+msgstr ""
+
+#: ../inc/posttype.php:23 ../inc/posttype.php:64
+msgid "View Gallery"
+msgstr ""
+
+#: ../inc/posttype.php:24 ../inc/posttype.php:65
+msgid "Search Gallery"
+msgstr ""
+
+#: ../inc/posttype.php:25 ../inc/posttype.php:66
+msgid "No Gallery found"
+msgstr ""
+
+#: ../inc/posttype.php:26 ../inc/posttype.php:67
+msgid "No Gallery found in Trash"
+msgstr ""
+
+#: ../inc/posttype.php:57 ../inc/posttype.php:58 ../inc/posttype.php:69
+msgid "AD Gallery Post"
+msgstr ""
+
+#: ../inc/posttype.php:59 ../inc/posttype.php:60
+msgid "Add New Gallery Post"
+msgstr ""
+
+#: ../inc/posttype.php:63
+msgid "All Gallery Post"
+msgstr ""
+
+#: ../inc/posttype.php:101 ../inc/posttype.php:102 ../inc/posttype.php:111
+msgid "Gallery Category"
+msgstr ""
+
+#: ../inc/posttype.php:103
+msgid "Search Gallery Category"
+msgstr ""
+
+#: ../inc/posttype.php:104
+msgid "All Gallery Category"
+msgstr ""
+
+#: ../inc/posttype.php:105
+msgid "Parent Gallery Category"
+msgstr ""
+
+#: ../inc/posttype.php:106
+msgid "Parent Gallery Category:"
+msgstr ""
+
+#: ../inc/posttype.php:107
+msgid "Edit Gallery Category"
+msgstr ""
+
+#: ../inc/posttype.php:108
+msgid "Update Gallery Category"
+msgstr ""
+
+#: ../inc/posttype.php:109
+msgid "Add New Gallery Category"
+msgstr ""
+
+#: ../inc/posttype.php:110
+msgid "New Gallery Category"
+msgstr ""
+
+#: ../inc/posttype.php:131 ../inc/posttype.php:132 ../inc/posttype.php:143
+msgid "AD Album"
+msgstr ""
+
+#: ../inc/posttype.php:133 ../inc/posttype.php:134
+msgid "Add New Album"
+msgstr ""
+
+#: ../inc/posttype.php:135
+msgid "Edit Album"
+msgstr ""
+
+#: ../inc/posttype.php:136
+msgid "New Album"
+msgstr ""
+
+#: ../inc/posttype.php:137
+msgid "All Album"
+msgstr ""
+
+#: ../inc/posttype.php:138
+msgid "View Album"
+msgstr ""
+
+#: ../inc/posttype.php:139
+msgid "Search Album"
+msgstr ""
+
+#: ../inc/posttype.php:140
+msgid "No Album found"
+msgstr ""
+
+#: ../inc/posttype.php:141
+msgid "No Album found in Trash"
+msgstr ""
+
+#: ../inc/shortcodes-functions.php:326 ../inc/shortcodes-functions.php:613
+#: ../inc/shortcodes-functions.php:817 ../inc/shortcodes-functions.php:1451
+msgid "Loading the next set of posts..."
+msgstr ""
+
+#: ../inc/shortcodes-functions.php:327 ../inc/shortcodes-functions.php:614
+#: ../inc/shortcodes-functions.php:818 ../inc/shortcodes-functions.php:1452
+msgid "All posts loaded."
+msgstr ""
+
+#: ../inc/shortcodes-functions.php:1027
+msgid "Loading Image"
+msgstr ""
+
+#: ../inc/shortcodes-functions.php:1624
+msgid "Show All"
+msgstr ""
+
+#: ../inc/shortcodes-functions.php:1730
+msgid "Descending"
+msgstr ""
+
+#: ../inc/shortcodes-functions.php:1731
+msgid "Ascending"
+msgstr ""
+
+#: ../inc/shortcodes-functions.php:1870
+msgid "more info"
+msgstr ""
+
+#: ../inc/shortcodes.php:32
+msgid "Style: "
+msgstr ""
+
+#: ../inc/Custom-Meta-Boxes/classes.fields.php:1011
+msgid "Type to search"
+msgstr ""

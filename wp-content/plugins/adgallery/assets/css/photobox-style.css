@@ -1,0 +1,689 @@
+@charset "UTF-8";
+/* CSS Document 
+File: assets/css/prettyPhoto-style.css
+Description: Css classes for frontend views
+Plugin: AD Gallery
+Author: Ad-theme.com
+*/
+
+.adgallery-photobox .container-item {
+	float:left;
+}
+
+
+
+
+/*********************************** STYLE 1 ****************************************/
+
+.adgallery-photobox.style1 .item {
+	-webkit-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	overflow: hidden;
+}
+.adgallery-photobox.style1 .item-overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: background-color 0.3s ease-in-out;
+	   -moz-transition: background-color 0.3s ease-in-out;
+	    -ms-transition: background-color 0.3s ease-in-out;
+	     -o-transition: background-color 0.3s ease-in-out;
+	        transition: background-color 0.3s ease-in-out;
+}
+.adgallery-photobox.style1 .item:hover .item-overlay{
+	background-color: rgba(0,0,0,0.4);
+}
+.adgallery-photobox.style1 .item-content{
+	height: 100%;
+    position: absolute;
+    top: 0;
+    transition: all 0.3s ease-in-out 0s;
+    width: 100%;
+    transform: translate(0px, -100%);
+
+	-webkit-transform: translate(-100%,0%);
+	   -moz-transform: translate(-100%,0%);
+	    -ms-transform: translate(-100%,0%);
+	     -o-transform: translate(-100%,0%);
+	        transform: translate(-100%,0%);
+	
+	-webkit-transition: all 0.3s ease-in-out;
+	   -moz-transition: all 0.3s ease-in-out;
+	    -ms-transition: all 0.3s ease-in-out;
+	     -o-transition: all 0.3s ease-in-out;
+	        transition: all 0.3s ease-in-out;
+	
+}
+.adgallery-photobox.style1 .item:hover .item-content{
+	-webkit-transform: translate(0,0px);
+	   -moz-transform: translate(0,0px);
+	    -ms-transform: translate(0,0px);
+	     -o-transform: translate(0,0px);
+	        transform: translate(0,0px);
+	    
+	-webkit-transition: all 0.3s ease-in-out;
+	   -moz-transition: all 0.3s ease-in-out;
+	    -ms-transition: all 0.3s ease-in-out;
+	     -o-transition: all 0.3s ease-in-out;
+	        transition: all 0.3s ease-in-out;
+}
+.adgallery-photobox.style1 .item:hover .item-add-content{
+	opacity:1
+}
+.adgallery-photobox.style1 .item-add-content-inner{
+	border:0px solid #fff;
+	border-top-width:0px;
+}
+
+/* Buttons */
+.adgallery-photobox.style1 .item-button{
+	width:35px;
+	height:35px;
+}
+.adgallery-photobox.style1 .item-button.play{
+	background-color: rgba(255,255,255,0.7);
+	background-position: center center;
+	background-repeat: no-repeat;
+	left: 50%;
+	top: 50%;
+	opacity: 0;
+	position: absolute;
+	z-index: 100000;
+	transition: all 0.3s ease-in-out 0s;
+	width: 70px;
+	border-radius: 5px;
+	height:30px;
+	margin-left:-35px;
+	margin-top:-15px; 	
+}
+.adgallery-photobox.style1 .item-button.play:hover{
+	background-color:#fff;
+}
+.adgallery-photobox.style1 .container-item:hover .item-button.play{
+	opacity:1;
+}
+
+/*********************************** STYLE 2 ****************************************/
+
+.adgallery-photobox.style2 .item {
+	-webkit-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	overflow: hidden;
+}
+
+.adgallery-photobox.style2 .item-overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: background-color 0.3s ease-in-out;
+	   -moz-transition: background-color 0.3s ease-in-out;
+	    -ms-transition: background-color 0.3s ease-in-out;
+	     -o-transition: background-color 0.3s ease-in-out;
+	        transition: background-color 0.3s ease-in-out;
+}
+.adgallery-photobox.style2 .item:hover .item-overlay{
+	border:8px solid #fff;
+	transition:all 0.5s ease-in-out 0s;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+.adgallery-photobox.style2 .item-content{
+	background:rgba(255,255,255,0.3);
+	height: 100%;
+    position: absolute;
+    top: 0;
+    transition: all 0.3s ease-in-out 0s;
+    width: 100%;
+    transform: translate(0px, -100%);
+
+	-webkit-transform: translate(-100%,0%);
+	   -moz-transform: translate(-100%,0%);
+	    -ms-transform: translate(-100%,0%);
+	     -o-transform: translate(-100%,0%);
+	        transform: translate(-100%,0%);
+	
+	-webkit-transition: all 0.3s ease-in-out;
+	   -moz-transition: all 0.3s ease-in-out;
+	    -ms-transition: all 0.3s ease-in-out;
+	     -o-transition: all 0.3s ease-in-out;
+	        transition: all 0.3s ease-in-out;
+	
+}
+.adgallery-photobox.style2 .item:hover .item-content{
+	-webkit-transform: translate(0,0px);
+	   -moz-transform: translate(0,0px);
+	    -ms-transform: translate(0,0px);
+	     -o-transform: translate(0,0px);
+	        transform: translate(0,0px);
+	    
+	-webkit-transition: all 0.3s ease-in-out;
+	   -moz-transition: all 0.3s ease-in-out;
+	    -ms-transition: all 0.3s ease-in-out;
+	     -o-transition: all 0.3s ease-in-out;
+	        transition: all 0.3s ease-in-out;
+}
+
+.adgallery-photobox.style2 .item-top-content{
+	position: relative;
+	margin-top:55px;
+}
+.adgallery-photobox.style2 .item-top-content-inner{
+	position: absolute;
+	bottom: 0;
+	padding:10px 10px 5px 10px;
+	width:100%;
+	text-align:center;
+	margin-left:5px;
+}
+.adgallery-photobox.style2 .item-add-content{
+	padding:0 15px 0px 15px;
+	opacity:0;
+	-webkit-transition: all 0.3s ease-in-out;
+	   -moz-transition: all 0.3s ease-in-out;
+	    -ms-transition: all 0.3s ease-in-out;
+	     -o-transition: all 0.3s ease-in-out;
+	        transition: all 0.3s ease-in-out;
+}
+.adgallery-photobox.style2 .item:hover .item-add-content{
+	opacity:1
+}
+.adgallery-photobox.style2 .item-add-content-inner{
+	border:0px solid #fff;
+	border-top-width:0px;
+}
+.adgallery-photobox.style2 .item-button{
+	width:35px;
+	height:35px;
+}
+.adgallery-photobox.style2 .item-button.play{
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    height: 110px;
+	left: 50%;
+	top: 50%;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.3s ease-in-out 0s;
+    width: 70px;
+    z-index: 100000;
+	margin-left:-35px;
+	margin-top:-55px; 	
+}
+.adgallery-photobox.style2 .container-item:hover .item-button.play{
+	opacity:1;
+}
+
+/*************************************************** STYLE 3 *******************************************/
+
+.adgallery-photobox.style3 .item {
+	-webkit-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	overflow: hidden;
+}
+
+.adgallery-photobox.style3 .item-overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: background-color 0.3s ease-in-out;
+	   -moz-transition: background-color 0.3s ease-in-out;
+	    -ms-transition: background-color 0.3s ease-in-out;
+	     -o-transition: background-color 0.3s ease-in-out;
+	        transition: background-color 0.3s ease-in-out;
+}
+.adgallery-photobox.style3 .item-content{
+	background:rgba(238,198,61,0.8);
+	height: 100%;
+    position: absolute;
+    top: 0;
+    transition: all 0.3s ease-in-out 0s;
+    width: 100%;
+    transform: translate(0px, -100%);
+
+	-webkit-transform: translate(100%,100%);
+	   -moz-transform: translate(100%,100%);
+	    -ms-transform: translate(100%,100%);
+	     -o-transform: translate(100%,100%);
+	        transform: translate(100%,100%);
+	
+	-webkit-transition: all 0.3s ease-in-out;
+	   -moz-transition: all 0.3s ease-in-out;
+	    -ms-transition: all 0.3s ease-in-out;
+	     -o-transition: all 0.3s ease-in-out;
+	        transition: all 0.3s ease-in-out;
+	
+}
+.adgallery-photobox.style3 .item:hover .item-content{
+	-webkit-transform: translate(0,0px);
+	   -moz-transform: translate(0,0px);
+	    -ms-transform: translate(0,0px);
+	     -o-transform: translate(0,0px);
+	        transform: translate(0,0px);
+	    
+	-webkit-transition: all 0.3s ease-in-out;
+	   -moz-transition: all 0.3s ease-in-out;
+	    -ms-transition: all 0.3s ease-in-out;
+	     -o-transition: all 0.3s ease-in-out;
+	        transition: all 0.3s ease-in-out;
+}
+
+.adgallery-photobox.style3 .item-top-content{
+	position: relative;
+	margin-top:55px;
+}
+.adgallery-photobox.style3 .item-top-content-inner{
+	position: absolute;
+	bottom: 0;
+	padding:10px 10px 5px 10px;
+	width:100%;
+	text-align:center;
+	margin-left:5px;
+}
+.adgallery-photobox.style3 .item-add-content{
+	padding:0 15px 0px 15px;
+	opacity:0;
+	-webkit-transition: all 0.3s ease-in-out;
+	   -moz-transition: all 0.3s ease-in-out;
+	    -ms-transition: all 0.3s ease-in-out;
+	     -o-transition: all 0.3s ease-in-out;
+	        transition: all 0.3s ease-in-out;
+}
+.adgallery-photobox.style3 .item:hover .item-add-content{
+	opacity:1
+}
+.adgallery-photobox.style3 .item-add-content-inner{
+	border:0px solid #fff;
+	border-top-width:0px;
+}
+.adgallery-photobox.style3 .item-button{
+	width:35px;
+	height:35px;
+}
+.adgallery-photobox.style3 .item-button.play{
+	background-color: rgba(255,255,255,0.8);
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    top: 50%;
+    height: 30px;
+    left: 50%;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.3s ease-in-out 0s;
+    width: 70px;
+	margin-left:-35px;
+	margin-top:-15px;
+}
+
+.adgallery-photobox.style3 .item-button.play:hover{
+	background-color:#fff;
+	}
+.adgallery-photobox.style3 .container-item:hover .item-button.play{
+	opacity:1;
+}
+
+/******************************************************* STYLE 4 *************************************************/
+
+.adgallery-photobox.style4 .item {
+	-webkit-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	overflow: hidden;
+}
+
+.adgallery-photobox.style4 .item-overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: background-color 0.3s ease-in-out;
+	   -moz-transition: background-color 0.3s ease-in-out;
+	    -ms-transition: background-color 0.3s ease-in-out;
+	     -o-transition: background-color 0.3s ease-in-out;
+	        transition: background-color 0.3s ease-in-out;
+}
+.adgallery-photobox.style4 .item-content{
+	background: none repeat scroll 0 0 #FFFFFF;
+    height: 35px;
+    margin-top: 35%;
+    position: absolute;
+    top: 0;
+    transform: translate(-110%, 0%);
+    transition: all 0.3s ease-in-out 0s;
+    width: 70%;
+	box-shadow: 6px 0 8px 0 #333333;
+	-webkit-box-shadow: 5px 5px 10px 2px #333333;
+	-moz-box-shadow: 5px 5px 10px 2px #333333;
+
+	-webkit-transform: translate(-110%,0%);
+	   -moz-transform: translate(-110%,0%);
+	    -ms-transform: translate(-110%,0%);
+	     -o-transform: translate(-110%,0%);
+	        transform: translate(-110%,0%);
+	
+	-webkit-transition: all 0.3s ease-in-out;
+	   -moz-transition: all 0.3s ease-in-out;
+	    -ms-transition: all 0.3s ease-in-out;
+	     -o-transition: all 0.3s ease-in-out;
+	        transition: all 0.3s ease-in-out;
+	
+}
+.adgallery-photobox.style4 .item:hover .item-content{
+	-webkit-transform: translate(0,0px);
+	   -moz-transform: translate(0,0px);
+	    -ms-transform: translate(0,0px);
+	     -o-transform: translate(0,0px);
+	        transform: translate(0,0px);
+	    
+	-webkit-transition: all 0.3s ease-in-out;
+	   -moz-transition: all 0.3s ease-in-out;
+	    -ms-transition: all 0.3s ease-in-out;
+	     -o-transition: all 0.3s ease-in-out;
+	        transition: all 0.3s ease-in-out;
+}
+
+.adgallery-photobox.style4 .item-top-content{
+	position: relative;
+	margin-top:55px;
+}
+.adgallery-photobox.style4 .item-top-content-inner{
+	position: absolute;
+	bottom: 0;
+	padding:10px 10px 5px 10px;
+	width:100%;
+	text-align:center;
+	margin-left:5px;
+}
+.adgallery-photobox.style4 .item-add-content{
+	padding:0 15px 0px 15px;
+	opacity:0;
+	-webkit-transition: all 0.3s ease-in-out;
+	   -moz-transition: all 0.3s ease-in-out;
+	    -ms-transition: all 0.3s ease-in-out;
+	     -o-transition: all 0.3s ease-in-out;
+	        transition: all 0.3s ease-in-out;
+}
+.adgallery-photobox.style4 .item:hover .item-add-content{
+	opacity:1
+}
+.adgallery-photobox.style4 .item-add-content-inner{
+	border:0px solid #fff;
+	border-top-width:0px;
+}
+.adgallery-photobox.style4 .item-button{
+	width:35px;
+	height:35px;
+}
+.adgallery-photobox.style4 .item-button.play{
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    height: 35px;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.3s ease-in-out 0s;
+    width: 70px;
+	margin-left:-35px;
+	margin-top:-17.5px;
+	left: 50%;
+	top: 50%;
+}
+.adgallery-photobox.style4 .container-item:hover .item-button.play{
+	opacity:1;
+}
+
+/************************************************************* STYLE 5 *************************************/
+
+.adgallery-photobox.style5 .item {
+	-webkit-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	overflow: hidden;
+}
+
+.adgallery-photobox.style5 .item-overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: background-color 0.3s ease-in-out;
+	   -moz-transition: background-color 0.3s ease-in-out;
+	    -ms-transition: background-color 0.3s ease-in-out;
+	     -o-transition: background-color 0.3s ease-in-out;
+	        transition: background-color 0.3s ease-in-out;
+}
+.adgallery-photobox.style5 .item:hover .item-overlay{
+	background:rgba(0,0,0,0.6);
+	transition:all 0.5s ease-in-out 0s;
+}
+.adgallery-photobox.style5 .item-content{
+	height: 100%;
+    position: absolute;
+    top: 0;
+    transition: all 0.3s ease-in-out 0s;
+    width: 100%;
+    transform: translate(0px, -100%);
+
+	-webkit-transform: translate(-100%,0%);
+	   -moz-transform: translate(-100%,0%);
+	    -ms-transform: translate(-100%,0%);
+	     -o-transform: translate(-100%,0%);
+	        transform: translate(-100%,0%);
+	
+	-webkit-transition: all 0.3s ease-in-out;
+	   -moz-transition: all 0.3s ease-in-out;
+	    -ms-transition: all 0.3s ease-in-out;
+	     -o-transition: all 0.3s ease-in-out;
+	        transition: all 0.3s ease-in-out;
+	
+}
+.adgallery-photobox.style5 .item:hover .item-content{
+	-webkit-transform: translate(0,0px);
+	   -moz-transform: translate(0,0px);
+	    -ms-transform: translate(0,0px);
+	     -o-transform: translate(0,0px);
+	        transform: translate(0,0px);
+	    
+	-webkit-transition: all 0.3s ease-in-out;
+	   -moz-transition: all 0.3s ease-in-out;
+	    -ms-transition: all 0.3s ease-in-out;
+	     -o-transition: all 0.3s ease-in-out;
+	        transition: all 0.3s ease-in-out;
+}
+.adgallery-photobox.style5 .item-top-content{
+	position: relative;
+	margin-top:55px;
+}
+.adgallery-photobox.style5 .item-top-content-inner{
+	position: absolute;
+	bottom: 0;
+	padding:10px 10px 5px 10px;
+	width:100%;
+	text-align:center;
+	margin-left:5px;
+}
+.adgallery-photobox.style5 .item-add-content{
+	padding:0 15px 0px 15px;
+	opacity:0;
+	-webkit-transition: all 0.3s ease-in-out;
+	   -moz-transition: all 0.3s ease-in-out;
+	    -ms-transition: all 0.3s ease-in-out;
+	     -o-transition: all 0.3s ease-in-out;
+	        transition: all 0.3s ease-in-out;
+}
+.adgallery-photobox.style5 .item:hover .item-add-content{
+	opacity:1
+}
+.adgallery-photobox.style5 .item-add-content-inner{
+	border:0px solid #fff;
+	border-top-width:0px;
+}
+.adgallery-photobox.style5 .item-button{
+	width:35px;
+	height:35px;
+}
+.adgallery-photobox.style5 .item-button.play{
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    height: 110px;
+	left: 50%;
+	top: 50%;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.3s ease-in-out 0s;
+	margin-left:-35px;
+	margin-top:-55px; 
+    z-index: 100000;
+	width:70px;
+}
+.adgallery-photobox.style5 .container-item:hover .item-button.play{
+	opacity:1;
+}
+
+/******************************************************** STYLE 6 ************************************************/
+
+.adgallery-photobox.style6 .item {
+	-webkit-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	overflow: hidden;
+}
+
+.adgallery-photobox.style6 .item-overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: background-color 0.3s ease-in-out;
+	   -moz-transition: background-color 0.3s ease-in-out;
+	    -ms-transition: background-color 0.3s ease-in-out;
+	     -o-transition: background-color 0.3s ease-in-out;
+	        transition: background-color 0.3s ease-in-out;
+}
+.adgallery-photobox.style6 .item:hover .item-overlay{
+	background:rgba(0,0,0,0.6);
+	transition:all 0.5s ease-in-out 0s;
+}
+.adgallery-photobox.style6 .item-content{
+	height: 100%;
+    position: absolute;
+    top: 0;
+    transition: all 0.3s ease-in-out 0s;
+    width: 100%;
+    transform: translate(0px, -100%);
+
+	-webkit-transform: translate(-100%,0%);
+	   -moz-transform: translate(-100%,0%);
+	    -ms-transform: translate(-100%,0%);
+	     -o-transform: translate(-100%,0%);
+	        transform: translate(-100%,0%);
+	
+	-webkit-transition: all 0.3s ease-in-out;
+	   -moz-transition: all 0.3s ease-in-out;
+	    -ms-transition: all 0.3s ease-in-out;
+	     -o-transition: all 0.3s ease-in-out;
+	        transition: all 0.3s ease-in-out;
+	
+}
+.adgallery-photobox.style6 .item:hover .item-content{
+	-webkit-transform: translate(0,0px);
+	   -moz-transform: translate(0,0px);
+	    -ms-transform: translate(0,0px);
+	     -o-transform: translate(0,0px);
+	        transform: translate(0,0px);
+	    
+	-webkit-transition: all 0.3s ease-in-out;
+	   -moz-transition: all 0.3s ease-in-out;
+	    -ms-transition: all 0.3s ease-in-out;
+	     -o-transition: all 0.3s ease-in-out;
+	        transition: all 0.3s ease-in-out;
+}
+
+.adgallery-photobox.style6 .item-top-content{
+	position: relative;
+	margin-top:55px;
+}
+.adgallery-photobox.style6 .item-top-content-inner{
+	position: absolute;
+	bottom: 0;
+	padding:10px 10px 5px 10px;
+	width:100%;
+	text-align:center;
+	margin-left:5px;
+}
+.adgallery-photobox.style6 .item-add-content{
+	padding:0 15px 0px 15px;
+	opacity:0;
+	-webkit-transition: all 0.3s ease-in-out;
+	   -moz-transition: all 0.3s ease-in-out;
+	    -ms-transition: all 0.3s ease-in-out;
+	     -o-transition: all 0.3s ease-in-out;
+	        transition: all 0.3s ease-in-out;
+}
+.adgallery-photobox.style6 .item:hover .item-add-content{
+	opacity:1
+}
+.adgallery-photobox.style6 .item-add-content-inner{
+	border:0px solid #fff;
+	border-top-width:0px;
+}
+.adgallery-photobox.style6 .item-button{
+	width:35px;
+	height:35px;
+}
+.adgallery-photobox.style6 .item-button.play{
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    height: 120px;
+	left: 50%;
+	top: 50%;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.3s ease-in-out 0s;
+    width: 70px;
+    z-index: 100000;
+	margin-left:-35px;
+	margin-top:-60px; 
+}
+.adgallery-photobox.style6 .container-item:hover .item-button.play{
+	opacity:1;
+}

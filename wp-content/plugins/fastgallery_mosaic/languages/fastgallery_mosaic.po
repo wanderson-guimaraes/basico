@@ -1,0 +1,381 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fast Gallery Mosaic\n"
+"POT-Creation-Date: 2015-10-01 22:20+0100\n"
+"PO-Revision-Date: 2015-10-01 22:20+0100\n"
+"Last-Translator: \n"
+"Language-Team: AD-Theme <support@ad-theme.com>\n"
+"Language: ENG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_n;_x;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../medias_fields.php:4 ../media_options.php:25
+msgid "Custom Url"
+msgstr ""
+
+#: ../media_options.php:17
+msgid "FAST GALLERY MOSAIC SETTINGS"
+msgstr ""
+
+#: ../media_options.php:19
+msgid "Type Gallery"
+msgstr ""
+
+#: ../media_options.php:21
+msgid "Prettyphoto"
+msgstr ""
+
+#: ../media_options.php:22
+msgid "Photobox"
+msgstr ""
+
+#: ../media_options.php:23
+msgid "Magnific Popup"
+msgstr ""
+
+#: ../media_options.php:24
+msgid "Light Gallery"
+msgstr ""
+
+#: ../media_options.php:29
+msgid "Layout"
+msgstr ""
+
+#: ../media_options.php:31
+msgid "Layout 1"
+msgstr ""
+
+#: ../media_options.php:32
+msgid "Layout 2"
+msgstr ""
+
+#: ../media_options.php:33
+msgid "Layout 3"
+msgstr ""
+
+#: ../media_options.php:34
+msgid "Layout 4"
+msgstr ""
+
+#: ../media_options.php:35
+msgid "Layout 5"
+msgstr ""
+
+#: ../media_options.php:39
+msgid "Style"
+msgstr ""
+
+#: ../media_options.php:41
+msgid "Style 1"
+msgstr ""
+
+#: ../media_options.php:42
+msgid "Style 2"
+msgstr ""
+
+#: ../media_options.php:43
+msgid "Style 3"
+msgstr ""
+
+#: ../media_options.php:44
+msgid "Style 4"
+msgstr ""
+
+#: ../media_options.php:45
+msgid "Style 5"
+msgstr ""
+
+#: ../media_options.php:46
+msgid "Style 6"
+msgstr ""
+
+#: ../media_options.php:47
+msgid "Style 7"
+msgstr ""
+
+#: ../media_options.php:48
+msgid "Style 8"
+msgstr ""
+
+#: ../media_options.php:49
+msgid "Style 9"
+msgstr ""
+
+#: ../media_options.php:50
+msgid "Style 10"
+msgstr ""
+
+#: ../media_options.php:54
+msgid "Standard Image Height"
+msgstr ""
+
+#: ../media_options.php:56
+msgid "Very small (100px)"
+msgstr ""
+
+#: ../media_options.php:57
+msgid "Small (150px)"
+msgstr ""
+
+#: ../media_options.php:58
+msgid "Medium (200px)"
+msgstr ""
+
+#: ../media_options.php:59
+msgid "Big (300px)"
+msgstr ""
+
+#: ../media_options.php:60
+msgid "Very Big (500px)"
+msgstr ""
+
+#: ../media_options.php:64
+msgid ""
+"Custom Image Height (i.e 150 - Leave empty if you want use Image Height "
+"Standard)"
+msgstr ""
+
+#: ../media_options.php:68
+msgid ""
+"Sometimes there is just one image on the last row and it gets blown up to a "
+"huge size to fit the parent div width. To stop this behaviour, set this to ON"
+msgstr ""
+
+#: ../media_options.php:70 ../media_options.php:87 ../media_options.php:147
+#: ../media_options.php:154 ../media_options.php:161 ../media_options.php:173
+#: ../media_options.php:181 ../media_options.php:196 ../media_options.php:223
+#: ../media_options.php:230 ../media_options.php:247
+msgid "Off"
+msgstr ""
+
+#: ../media_options.php:71 ../media_options.php:86 ../media_options.php:146
+#: ../media_options.php:153 ../media_options.php:160 ../media_options.php:172
+#: ../media_options.php:180 ../media_options.php:195 ../media_options.php:222
+#: ../media_options.php:229 ../media_options.php:248
+msgid "On"
+msgstr ""
+
+#: ../media_options.php:76
+msgid "Responsive / Mosaic"
+msgstr ""
+
+#: ../media_options.php:78
+msgid "Responsive"
+msgstr ""
+
+#: ../media_options.php:79
+msgid "Mosaic"
+msgstr ""
+
+#: ../media_options.php:84
+msgid "Over Image"
+msgstr ""
+
+#: ../media_options.php:90
+msgid "Custom Style"
+msgstr ""
+
+#: ../media_options.php:93
+msgid "Image Lightbox Size"
+msgstr ""
+
+#: ../media_options.php:95
+msgid "Default: 1000px x 800px cropped"
+msgstr ""
+
+#: ../media_options.php:96
+msgid "Thumbnail"
+msgstr ""
+
+#: ../media_options.php:97 ../media_options.php:138
+msgid "Medium"
+msgstr ""
+
+#: ../media_options.php:98 ../media_options.php:139
+msgid "Large"
+msgstr ""
+
+#: ../media_options.php:99
+msgid "Full"
+msgstr ""
+
+#: ../media_options.php:104
+msgid "Pixel of Padding Between Image (ex 20)"
+msgstr ""
+
+#: ../media_options.php:107
+msgid "Default value 0 (0px) so if you don' want a padding leave empty"
+msgstr ""
+
+#: ../media_options.php:112
+msgid "Main Color (ex #EEEEEE)"
+msgstr ""
+
+#: ../media_options.php:116
+msgid "Main Color Opacity (0.1 to 1)"
+msgstr ""
+
+#: ../media_options.php:120
+msgid "Secondary Color (ex #EEEEEE)"
+msgstr ""
+
+#: ../media_options.php:124
+msgid "Image Lightbox"
+msgstr ""
+
+#: ../media_options.php:126
+msgid "Plus"
+msgstr ""
+
+#: ../media_options.php:127
+msgid "Zoom In"
+msgstr ""
+
+#: ../media_options.php:128
+msgid "Image"
+msgstr ""
+
+#: ../media_options.php:129
+msgid "Images"
+msgstr ""
+
+#: ../media_options.php:130
+msgid "Spinner"
+msgstr ""
+
+#: ../media_options.php:131
+msgid "Search"
+msgstr ""
+
+#: ../media_options.php:135
+msgid "Image Lightbox Width"
+msgstr ""
+
+#: ../media_options.php:137
+msgid "Small (Default)"
+msgstr ""
+
+#: ../media_options.php:142
+msgid "Photobox Options"
+msgstr ""
+
+#: ../media_options.php:144
+msgid "Show Thumbnails"
+msgstr ""
+
+#: ../media_options.php:151
+msgid "Autoplay"
+msgstr ""
+
+#: ../media_options.php:158
+msgid "Counter"
+msgstr ""
+
+#: ../media_options.php:165 ../media_options.php:216
+msgid "Speed in ms (i.e 2000)"
+msgstr ""
+
+#: ../media_options.php:168
+msgid "Magnific Popup Options"
+msgstr ""
+
+#: ../media_options.php:170
+msgid "Enabled Gallery"
+msgstr ""
+
+#: ../media_options.php:176
+msgid "PrettyPhoto Options"
+msgstr ""
+
+#: ../media_options.php:178
+msgid "Autoplay Slideshow"
+msgstr ""
+
+#: ../media_options.php:185
+msgid "Animation Speed"
+msgstr ""
+
+#: ../media_options.php:187
+msgid "Fast"
+msgstr ""
+
+#: ../media_options.php:188
+msgid "Normal"
+msgstr ""
+
+#: ../media_options.php:189
+msgid "Slow"
+msgstr ""
+
+#: ../media_options.php:193
+msgid "Show Title"
+msgstr ""
+
+#: ../media_options.php:200
+msgid "Social Tools"
+msgstr ""
+
+#: ../media_options.php:202
+msgid "Show"
+msgstr ""
+
+#: ../media_options.php:203
+msgid "Hidden"
+msgstr ""
+
+#: ../media_options.php:207
+msgid "Light Gallery Options"
+msgstr ""
+
+#: ../media_options.php:209
+msgid "Mode"
+msgstr ""
+
+#: ../media_options.php:211
+msgid "Slide"
+msgstr ""
+
+#: ../media_options.php:212
+msgid "Fade"
+msgstr ""
+
+#: ../media_options.php:220
+msgid "Thumbnails"
+msgstr ""
+
+#: ../media_options.php:227
+msgid "Controls"
+msgstr ""
+
+#: ../media_options.php:233
+msgid "CUSTOM URL SETTINGS"
+msgstr ""
+
+#: ../media_options.php:235
+msgid "Target"
+msgstr ""
+
+#: ../media_options.php:237
+msgid "Blank (New Window)"
+msgstr ""
+
+#: ../media_options.php:238
+msgid "Self (Same Widow)"
+msgstr ""
+
+#: ../media_options.php:241
+msgid "SEO SETTINGS"
+msgstr ""
+
+#: ../media_options.php:243
+msgid ""
+"If you set ON you need to insert all ALT and TITLE Tags image for correct "
+"settings."
+msgstr ""

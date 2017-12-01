@@ -1,0 +1,57 @@
+/** adgalleryCMB Layout **/
+
+.adgallerycmb_metabox .field { 
+	overflow: hidden;
+	padding: 16px 0;
+	border-bottom: 1px solid #DFDFDF;
+}
+
+.adgallerycmb-row:last-child > [class*="adgallerycmb-cell-"]  > .field { 
+	border-bottom: 0; 
+}
+
+/* Neaten up the margins when metaboxes are within the standard postbox. */
+.postbox > .inside > .adgallerycmb_metabox {
+	margin: -10px 0; 
+}
+
+.adgallerycmb_metabox .adgallerycmb-row { 
+	overflow: hidden; 
+	margin: 0 -5px; 
+	zoom: 1;
+}
+
+.adgallerycmb_metabox .adgallerycmb-row:before,
+.adgallerycmb_metabox .adgallerycmb-row:after {
+	content: "";
+	display: table;
+} 
+.adgallerycmb_metabox .adgallerycmb-row:after {
+	clear: both;
+}
+
+.adgallerycmb_metabox [class*="adgallerycmb-cell-"] { 
+	float: left; 
+	padding: 0 5px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.adgallerycmb_metabox .adgallerycmb-cell-1  { width: 8.333333333%; }
+.adgallerycmb_metabox .adgallerycmb-cell-2  { width: 16.666666667%; }
+.adgallerycmb_metabox .adgallerycmb-cell-3  { width: 25%; }
+.adgallerycmb_metabox .adgallerycmb-cell-4  { width: 33.333333333%; }
+.adgallerycmb_metabox .adgallerycmb-cell-5  { width: 41.666666667%; }
+.adgallerycmb_metabox .adgallerycmb-cell-6  { width: 50%; }
+.adgallerycmb_metabox .adgallerycmb-cell-7  { width: 58.333333333%; }
+.adgallerycmb_metabox .adgallerycmb-cell-8  { width: 66.666666667%; }
+.adgallerycmb_metabox .adgallerycmb-cell-9  { width: 75%; }
+.adgallerycmb_metabox .adgallerycmb-cell-10 { width: 83.333333333%; }
+.adgallerycmb_metabox .adgallerycmb-cell-11 { width: 91.666666667%; }
+.adgallerycmb_metabox .adgallerycmb-cell-12 { width: 100%; }
+
+@media all and ( max-width: 850px ) {
+
+	.adgallerycmb_metabox [class*="adgallerycmb-cell-"] { width: 100%; }
+
+}
